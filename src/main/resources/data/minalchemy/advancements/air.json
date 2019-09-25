@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minalchemy:smoke_element"
+        },
+        "title": {
+            "translate": "advancements.minalchemy.air.title"
+        },
+        "description": {
+            "translate": "advancements.minalchemy.air.description"
+        }
+    },
+    "parent": "minalchemy:forces",
+    "criteria": {
+        "dust_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:dust_element" } ] } },
+        "smoke_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:smoke_element" } ] } }
+    },
+    "requirements": [
+        [ "dust_element" ],
+        [ "smoke_element" ]
+    ]
+}

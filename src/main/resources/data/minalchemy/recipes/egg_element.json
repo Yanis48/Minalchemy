@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:bird_element"
+        },
+        {
+            "item": "minalchemy:bird_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:egg_element"
+    }
+}

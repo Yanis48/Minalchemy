@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minalchemy:puddle_element"
+        },
+        "title": {
+            "translate": "advancements.minalchemy.water.title"
+        },
+        "description": {
+            "translate": "advancements.minalchemy.water.description"
+        }
+    },
+    "parent": "minalchemy:geology",
+    "criteria": {
+        "lake_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:lake_element" } ] } },
+        "ocean_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:ocean_element" } ] } },
+        "pond_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:pond_element" } ] } },
+        "puddle_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:puddle_element" } ] } },
+        "sea_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:sea_element" } ] } },
+        "steam_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:steam_element" } ] } }
+    },
+    "requirements": [
+        [ "lake_element" ],
+        [ "ocean_element" ],
+        [ "pond_element" ],
+        [ "puddle_element" ],
+        [ "sea_element" ],
+        [ "steam_element" ]
+    ]
+}

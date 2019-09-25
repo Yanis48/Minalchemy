@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:earth_element"
+        },
+        {
+            "item": "minalchemy:energy_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:earthquake_element"
+    }
+}

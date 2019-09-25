@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:sun_element"
+        },
+        {
+            "item": "minalchemy:glasses_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:sunglasses_element"
+    }
+}

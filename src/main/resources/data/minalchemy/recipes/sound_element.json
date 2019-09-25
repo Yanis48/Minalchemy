@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:air_element"
+        },
+        {
+            "item": "minalchemy:wave_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:sound_element"
+    }
+}

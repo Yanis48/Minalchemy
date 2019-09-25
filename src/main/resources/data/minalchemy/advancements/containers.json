@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minalchemy:aquarium_element"
+        },
+        "title": {
+            "translate": "advancements.minalchemy.containers.title"
+        },
+        "description": {
+            "translate": "advancements.minalchemy.containers.description"
+        }
+    },
+    "parent": "minalchemy:construction",
+    "criteria": {
+        "aquarium_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:aquarium_element" } ] } },
+        "greenhouse_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:greenhouse_element" } ] } }
+    },
+    "requirements": [
+        [ "aquarium_element" ],
+        [ "greenhouse_element" ]
+    ]
+}

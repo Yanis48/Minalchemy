@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:village_element"
+        },
+        {
+            "item": "minalchemy:village_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:city_element"
+    }
+}

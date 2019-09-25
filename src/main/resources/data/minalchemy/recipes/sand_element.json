@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:air_element"
+        },
+        {
+            "item": "minalchemy:stone_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:sand_element"
+    }
+}

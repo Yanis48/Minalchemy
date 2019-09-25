@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:galaxy_element"
+        },
+        {
+            "item": "minalchemy:galaxy_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:galaxy_cluster_element"
+    }
+}

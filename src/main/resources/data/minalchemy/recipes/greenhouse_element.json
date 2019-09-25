@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:plant_element"
+        },
+        {
+            "item": "minalchemy:aquarium_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:greenhouse_element"
+    }
+}

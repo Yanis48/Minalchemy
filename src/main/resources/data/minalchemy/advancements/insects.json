@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minalchemy:bee_element"
+        },
+        "title": {
+            "translate": "advancements.minalchemy.insects.title"
+        },
+        "description": {
+            "translate": "advancements.minalchemy.insects.description"
+        }
+    },
+    "parent": "minalchemy:animals",
+    "criteria": {
+        "ant_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:ant_element" } ] } },
+        "bee_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:bee_element" } ] } },
+        "butterfly_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:butterfly_element" } ] } },
+        "scorpion_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:scorpion_element" } ] } }
+    },
+    "requirements": [
+        [ "ant_element" ],
+        [ "bee_element" ],
+        [ "butterfly_element" ],
+        [ "scorpion_element" ]
+    ]
+}

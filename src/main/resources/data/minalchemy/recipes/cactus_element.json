@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:plant_element"
+        },
+        {
+            "item": "minalchemy:desert_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:cactus_element"
+    }
+}

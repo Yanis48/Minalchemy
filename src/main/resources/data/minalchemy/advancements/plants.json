@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "item": "minalchemy:grass_element"
+        },
+        "title": {
+            "translate": "advancements.minalchemy.plants.title"
+        },
+        "description": {
+            "translate": "advancements.minalchemy.plants.description"
+        }
+    },
+    "parent": "minalchemy:biology",
+    "criteria": {
+        "cactus_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:cactus_element" } ] } },
+        "flower_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:flower_element" } ] } },
+        "garden_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:garden_element" } ] } },
+        "grass_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:grass_element" } ] } },
+        "plant_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:plant_element" } ] } },
+        "reed_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:reed_element" } ] } },
+        "rose_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:rose_element" } ] } },
+        "seaweed_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:seaweed_element" } ] } },
+        "sunflower_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:sunflower_element" } ] } },
+        "water_lily_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:water_lily_element" } ] } }
+    },
+    "requirements": [
+        [ "cactus_element" ],
+        [ "flower_element" ],
+        [ "garden_element" ],
+        [ "grass_element" ],
+        [ "plant_element" ],
+        [ "reed_element" ],
+        [ "rose_element" ],
+        [ "seaweed_element" ],
+        [ "sunflower_element" ],
+        [ "water_lily_element" ]
+    ]
+}

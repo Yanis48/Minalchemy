@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:animal_element"
+        },
+        {
+            "item": "minalchemy:land_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:horse_element"
+    }
+}

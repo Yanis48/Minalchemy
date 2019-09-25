@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:water_element"
+        },
+        {
+            "item": "minalchemy:animal_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:fish_element"
+    }
+}

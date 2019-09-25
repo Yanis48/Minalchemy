@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:brick_element"
+        },
+        {
+            "item": "minalchemy:brick_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:wall_element"
+    }
+}

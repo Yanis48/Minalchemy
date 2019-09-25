@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:hay_element"
+        },
+        {
+            "item": "minalchemy:hay_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:hay_bale_element"
+    }
+}

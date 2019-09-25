@@ -1,0 +1,34 @@
+{
+    "display": {
+        "icon": {
+            "item": "minalchemy:camel_element"
+        },
+        "title": {
+            "translate": "advancements.minalchemy.animals.title"
+        },
+        "description": {
+            "translate": "advancements.minalchemy.animals.description"
+        }
+    },
+    "parent": "minalchemy:biology",
+    "criteria": {
+        "animal_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:animal_element" } ] } },
+        "camel_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:camel_element" } ] } },
+        "fish_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:fish_element" } ] } },
+        "frog_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:frog_element" } ] } },
+        "horse_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:horse_element" } ] } },
+        "lizard_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:lizard_element" } ] } },
+        "pig_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:pig_element" } ] } },
+        "turtle_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:turtle_element" } ] } }
+    },
+    "requirements": [
+        [ "animal_element" ],
+        [ "camel_element" ],
+        [ "fish_element" ],
+        [ "frog_element" ],
+        [ "horse_element" ],
+        [ "lizard_element" ],
+        [ "pig_element" ],
+        [ "turtle_element" ]
+    ]
+}

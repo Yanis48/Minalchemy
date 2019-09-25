@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:energy_element"
+        },
+        {
+            "item": "minalchemy:primordial_soup_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:life_element"
+    }
+}

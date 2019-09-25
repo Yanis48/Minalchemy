@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:puddle_element"
+        },
+        {
+            "item": "minalchemy:puddle_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:pond_element"
+    }
+}

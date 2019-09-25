@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:life_element"
+        },
+        {
+            "item": "minalchemy:soil_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:plant_element"
+    }
+}

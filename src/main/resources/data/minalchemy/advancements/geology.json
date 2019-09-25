@@ -1,0 +1,44 @@
+{
+    "display": {
+        "icon": {
+            "item": "minalchemy:land_element"
+        },
+        "title": {
+            "translate": "advancements.minalchemy.geology.title"
+        },
+        "description": {
+            "translate": "advancements.minalchemy.geology.description"
+        }
+    },
+    "parent": "minalchemy:root",
+    "criteria": {
+        "beach_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:beach_element" } ] } },
+        "continent_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:continent_element" } ] } },
+        "desert_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:desert_element" } ] } },
+        "dune_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:dune_element" } ] } },
+        "earthquake_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:earthquake_element" } ] } },
+        "land_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:land_element" } ] } },
+        "lava_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:lava_element" } ] } },
+        "mud_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:mud_element" } ] } },
+        "oasis_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:oasis_element" } ] } },
+        "sand_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:sand_element" } ] } },
+        "soil_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:soil_element" } ] } },
+        "stone_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:stone_element" } ] } },
+        "volcano_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:volcano_element" } ] } }
+    },
+    "requirements": [
+        [ "beach_element" ],
+        [ "continent_element" ],
+        [ "desert_element" ],
+        [ "dune_element" ],
+        [ "earthquake_element" ],
+        [ "land_element" ],
+        [ "lava_element" ],
+        [ "mud_element" ],
+        [ "oasis_element" ],
+        [ "sand_element" ],
+        [ "soil_element" ],
+        [ "stone_element" ],
+        [ "volcano_element" ]
+    ]
+}

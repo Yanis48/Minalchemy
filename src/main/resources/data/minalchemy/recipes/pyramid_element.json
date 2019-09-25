@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:stone_element"
+        },
+        {
+            "item": "minalchemy:desert_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:pyramid_element"
+    }
+}

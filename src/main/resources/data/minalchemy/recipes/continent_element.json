@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:earth_element"
+        },
+        {
+            "item": "minalchemy:land_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:continent_element"
+    }
+}

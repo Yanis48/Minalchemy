@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:mud_element"
+        },
+        {
+            "item": "minalchemy:life_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:bacteria_element"
+    }
+}

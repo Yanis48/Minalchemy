@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:bird_element"
+        },
+        {
+            "item": "minalchemy:lake_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:duck_element"
+    }
+}

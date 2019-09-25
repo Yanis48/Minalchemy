@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:fire_element"
+        },
+        {
+            "item": "minalchemy:stone_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:metal_element"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:tornado_element"
+        },
+        {
+            "item": "minalchemy:sand_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:sandstorm_element"
+    }
+}

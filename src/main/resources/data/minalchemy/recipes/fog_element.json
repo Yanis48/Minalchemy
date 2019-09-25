@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:city_element"
+        },
+        {
+            "item": "minalchemy:cloud_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:fog_element"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minalchemy:primordial_soup_element"
+        },
+        "title": {
+            "translate": "advancements.minalchemy.biology.title"
+        },
+        "description": {
+            "translate": "advancements.minalchemy.biology.description"
+        }
+    },
+    "parent": "minalchemy:root",
+    "criteria": {
+        "bacteria_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:bacteria_element" } ] } },
+        "egg_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:egg_element" } ] } },
+        "life_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:life_element" } ] } },
+        "primordial_soup_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:primordial_soup_element" } ] } }
+    },
+    "requirements": [
+        [ "bacteria_element" ],
+        [ "egg_element" ],
+        [ "life_element" ],
+        [ "primordial_soup_element" ]
+    ]
+}

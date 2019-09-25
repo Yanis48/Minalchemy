@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minalchemy:pressure_element"
+        },
+        "title": {
+            "translate": "advancements.minalchemy.forces.title"
+        },
+        "description": {
+            "translate": "advancements.minalchemy.forces.description"
+        }
+    },
+    "parent": "minalchemy:geology",
+    "criteria": {
+        "energy_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:energy_element" } ] } },
+        "heat_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:heat_element" } ] } },
+        "pressure_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:pressure_element" } ] } },
+        "sound_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:sound_element" } ] } },
+        "wave_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:wave_element" } ] } }
+    },
+    "requirements": [
+        [ "energy_element" ],
+        [ "heat_element" ],
+        [ "pressure_element" ],
+        [ "sound_element" ],
+        [ "wave_element" ]
+    ]
+}

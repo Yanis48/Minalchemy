@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:air_element"
+        },
+        {
+            "item": "minalchemy:pressure_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:wind_element"
+    }
+}

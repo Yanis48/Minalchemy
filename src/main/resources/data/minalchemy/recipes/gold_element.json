@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:metal_element"
+        },
+        {
+            "item": "minalchemy:sun_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:gold_element"
+    }
+}

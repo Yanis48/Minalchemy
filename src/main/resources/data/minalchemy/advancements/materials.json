@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minalchemy:metal_element"
+        },
+        "title": {
+            "translate": "advancements.minalchemy.materials.title"
+        },
+        "description": {
+            "translate": "advancements.minalchemy.materials.description"
+        }
+    },
+    "parent": "minalchemy:root",
+    "criteria": {
+        "brick_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:brick_element" } ] } },
+        "gold_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:gold_element" } ] } },
+        "metal_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:metal_element" } ] } }
+    },
+    "requirements": [
+        [ "brick_element" ],
+        [ "gold_element" ],
+        [ "metal_element" ]
+    ]
+}

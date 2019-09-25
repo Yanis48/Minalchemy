@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:water_element"
+        },
+        {
+            "item": "minalchemy:earth_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:mud_element"
+    }
+}

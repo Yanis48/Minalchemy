@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:grass_element"
+        },
+        {
+            "item": "minalchemy:animal_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:ant_element"
+    }
+}

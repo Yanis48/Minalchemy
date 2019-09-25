@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:flower_element"
+        },
+        {
+            "item": "minalchemy:bee_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:honey_element"
+    }
+}

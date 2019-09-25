@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:water_element"
+        },
+        {
+            "item": "minalchemy:lava_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:obsidian_element"
+    }
+}

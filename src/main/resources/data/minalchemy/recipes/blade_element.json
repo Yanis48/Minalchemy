@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:metal_element"
+        },
+        {
+            "item": "minalchemy:stone_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:blade_element"
+    }
+}

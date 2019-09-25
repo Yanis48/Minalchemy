@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:smoke_element"
+        },
+        {
+            "item": "minalchemy:city_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:smog_element"
+    }
+}

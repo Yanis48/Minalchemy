@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "minalchemy:sunglasses_element"
+        },
+        "title": {
+            "translate": "advancements.minalchemy.tools.title"
+        },
+        "description": {
+            "translate": "advancements.minalchemy.tools.description"
+        }
+    },
+    "parent": "minalchemy:materials",
+    "criteria": {
+        "bell_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:bell_element" } ] } },
+        "blade_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:blade_element" } ] } },
+        "glasses_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:glasses_element" } ] } },
+        "horseshoe_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:horseshoe_element" } ] } },
+        "hourglass_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:hourglass_element" } ] } },
+        "sunglasses_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:sunglasses_element" } ] } },
+        "swim_goggles_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:swim_goggles_element" } ] } }
+    },
+    "requirements": [
+        [ "bell_element" ],
+        [ "blade_element" ],
+        [ "glasses_element" ],
+        [ "horseshoe_element" ],
+        [ "hourglass_element" ],
+        [ "sunglasses_element" ],
+        [ "swim_goggles_element" ]
+    ]
+}

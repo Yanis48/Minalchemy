@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minalchemy:house_element"
+        },
+        "title": {
+            "translate": "advancements.minalchemy.construction.title"
+        },
+        "description": {
+            "translate": "advancements.minalchemy.construction.description"
+        }
+    },
+    "parent": "minalchemy:materials",
+    "criteria": {
+        "city_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:city_element" } ] } },
+        "house_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:house_element" } ] } },
+        "pyramid_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:pyramid_element" } ] } },
+        "village_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:village_element" } ] } },
+        "wall_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:wall_element" } ] } }
+    },
+    "requirements": [
+        [ "city_element" ],
+        [ "house_element" ],
+        [ "pyramid_element" ],
+        [ "village_element" ],
+        [ "wall_element" ]
+    ]
+}

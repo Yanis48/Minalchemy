@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minalchemy:salt_element"
+        },
+        "title": {
+            "translate": "advancements.minalchemy.minerals.title"
+        },
+        "description": {
+            "translate": "advancements.minalchemy.minerals.description"
+        }
+    },
+    "parent": "minalchemy:geology",
+    "criteria": {
+        "glass_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:glass_element" } ] } },
+        "obsidian_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:obsidian_element" } ] } },
+        "salt_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:salt_element" } ] } }
+    },
+    "requirements": [
+        [ "glass_element" ],
+        [ "obsidian_element" ],
+        [ "salt_element" ]
+    ]
+}

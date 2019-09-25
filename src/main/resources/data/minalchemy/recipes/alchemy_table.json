@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " A ",
+		"EPF",
+        " W "
+    ],
+    "key": {
+        "A": {
+            "item": "minalchemy:air_element"
+        },
+        "F": {
+            "item": "minalchemy:fire_element"
+        },
+		"W": {
+            "item": "minalchemy:water_element"
+        },
+		"E": {
+            "item": "minalchemy:earth_element"
+        },
+		"P": {
+			"tag": "minecraft:planks"
+		}
+    },
+    "result": {
+        "item": "minalchemy:alchemy_table"
+    }
+}

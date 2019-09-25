@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:atmosphere_element"
+        },
+        {
+            "item": "minalchemy:mist_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:cloud_element"
+    }
+}

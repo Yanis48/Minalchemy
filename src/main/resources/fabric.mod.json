@@ -1,0 +1,33 @@
+{
+    "schemaVersion": 1,
+    "id": "minalchemy",
+    "version": "${version}",
+
+    "name": "Minalchemy",
+    "description": "A mod inspired by Little Alchemy mobile games",
+    "authors": [
+        "Yanis48"
+    ],
+    "contact": {
+        "homepage": "https://www.curseforge.com/minecraft/mc-mods/minalchemy",
+        "sources": "https://github.com/Yanis48/Minalchemy",
+        "issues": "https://github.com/Yanis48/Minalchemy/issues"
+    },
+
+    "license": "GPLv3",
+    "icon": "assets/minalchemy/icon.png",
+
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.yanis48.minalchemy.Minalchemy"
+        ],
+        "client": [
+            "com.yanis48.minalchemy.MinalchemyClient"
+        ]
+    },
+    "depends": {
+        "fabricloader": ">=0.4.8",
+        "fabric": "*"
+    }
+}

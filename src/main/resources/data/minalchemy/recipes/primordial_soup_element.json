@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:lava_element"
+        },
+        {
+            "item": "minalchemy:ocean_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:primordial_soup_element"
+    }
+}

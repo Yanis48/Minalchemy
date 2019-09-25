@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:plant_element"
+        },
+        {
+            "item": "minalchemy:land_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:grass_element"
+    }
+}

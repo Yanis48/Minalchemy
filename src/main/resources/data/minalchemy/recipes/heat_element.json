@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:air_element"
+        },
+        {
+            "item": "minalchemy:energy_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:heat_element"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:pond_element"
+        },
+        {
+            "item": "minalchemy:pond_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:lake_element"
+    }
+}

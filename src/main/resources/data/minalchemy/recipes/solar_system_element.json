@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:planet_element"
+        },
+        {
+            "item": "minalchemy:planet_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:solar_system_element"
+    }
+}

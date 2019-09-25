@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "minalchemy:planet_element"
+        },
+        "title": {
+            "translate": "advancements.minalchemy.space.title"
+        },
+        "description": {
+            "translate": "advancements.minalchemy.space.description"
+        }
+    },
+    "parent": "minalchemy:geology",
+    "criteria": {
+        "atmosphere_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:atmosphere_element" } ] } },
+        "galaxy_cluster_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:galaxy_cluster_element" } ] } },
+        "galaxy_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:galaxy_element" } ] } },
+        "planet_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:planet_element" } ] } },
+        "solar_system_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:solar_system_element" } ] } },
+        "sun_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:sun_element" } ] } },
+        "universe_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:universe_element" } ] } }
+    },
+    "requirements": [
+        [ "atmosphere_element" ],
+        [ "galaxy_cluster_element" ],
+        [ "galaxy_element" ],
+        [ "planet_element" ],
+        [ "solar_system_element" ],
+        [ "sun_element" ],
+        [ "universe_element" ]
+    ]
+}

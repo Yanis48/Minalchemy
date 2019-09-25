@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:sea_element"
+        },
+        {
+            "item": "minalchemy:sea_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:ocean_element"
+    }
+}

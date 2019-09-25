@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "item": "minalchemy:rainbow_element"
+        },
+        "title": {
+            "translate": "advancements.minalchemy.weather.title"
+        },
+        "description": {
+            "translate": "advancements.minalchemy.weather.description"
+        }
+    },
+    "parent": "minalchemy:forces",
+    "criteria": {
+        "cloud_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:cloud_element" } ] } },
+        "fog_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:fog_element" } ] } },
+        "mist_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:mist_element" } ] } },
+        "rain_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:rain_element" } ] } },
+        "rainbow_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:rainbow_element" } ] } },
+        "sandstorm_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:sandstorm_element" } ] } },
+        "smog_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:smog_element" } ] } },
+        "tornado_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:tornado_element" } ] } },
+        "wind_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:wind_element" } ] } }
+    },
+    "requirements": [
+        [ "cloud_element" ],
+        [ "fog_element" ],
+        [ "mist_element" ],
+        [ "rain_element" ],
+        [ "rainbow_element" ],
+        [ "sandstorm_element" ],
+        [ "smog_element" ],
+        [ "tornado_element" ],
+        [ "wind_element" ]
+    ]
+}

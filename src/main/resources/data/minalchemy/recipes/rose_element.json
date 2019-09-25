@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:blade_element"
+        },
+        {
+            "item": "minalchemy:flower_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:rose_element"
+    }
+}

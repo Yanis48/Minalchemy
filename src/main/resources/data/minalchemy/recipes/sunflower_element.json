@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:sun_element"
+        },
+        {
+            "item": "minalchemy:flower_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:sunflower_element"
+    }
+}

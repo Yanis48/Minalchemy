@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:animal_element"
+        },
+        {
+            "item": "minalchemy:flower_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:bee_element"
+    }
+}

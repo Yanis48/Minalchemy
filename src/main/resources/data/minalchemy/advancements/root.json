@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "minalchemy:alchemy_table"
+        },
+        "title": {
+            "translate": "advancements.minalchemy.root.title"
+        },
+        "description": {
+            "translate": "advancements.minalchemy.root.description"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "background": "minecraft:textures/block/spruce_planks.png"
+    },
+    "criteria": {
+        "alchemy_table": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minalchemy:alchemy_table"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "alchemy_table"
+        ]
+    ]
+}

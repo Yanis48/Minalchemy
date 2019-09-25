@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:wind_element"
+        },
+        {
+            "item": "minalchemy:desert_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:dune_element"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minalchemy:bird_element"
+        },
+        "title": {
+            "translate": "advancements.minalchemy.birds.title"
+        },
+        "description": {
+            "translate": "advancements.minalchemy.birds.description"
+        }
+    },
+    "parent": "minalchemy:animals",
+    "criteria": {
+        "bird_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:bird_element" } ] } },
+        "duck_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:duck_element" } ] } },
+        "phoenix_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:phoenix_element" } ] } },
+        "pigeon_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:pigeon_element" } ] } },
+        "seagull_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:seagull_element" } ] } }
+    },
+    "requirements": [
+        [ "bird_element" ],
+        [ "duck_element" ],
+        [ "phoenix_element" ],
+        [ "pigeon_element" ],
+        [ "seagull_element" ]
+    ]
+}

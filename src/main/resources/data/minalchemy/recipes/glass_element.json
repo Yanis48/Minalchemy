@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:fire_element"
+        },
+        {
+            "item": "minalchemy:sand_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:glass_element"
+    }
+}

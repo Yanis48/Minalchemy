@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:glass_element"
+        },
+        {
+            "item": "minalchemy:glass_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:glasses_element"
+    }
+}

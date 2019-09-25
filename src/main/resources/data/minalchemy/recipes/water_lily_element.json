@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:flower_element"
+        },
+        {
+            "item": "minalchemy:lake_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:water_lily_element"
+    }
+}

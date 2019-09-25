@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minalchemy:hay_bale_element"
+        },
+        "title": {
+            "translate": "advancements.minalchemy.food.title"
+        },
+        "description": {
+            "translate": "advancements.minalchemy.food.description"
+        }
+    },
+    "parent": "minalchemy:plants",
+    "criteria": {
+        "hay_bale_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:hay_bale_element" } ] } },
+        "hay_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:hay_element" } ] } },
+        "honey_element": { "trigger": "minecraft:inventory_changed", "conditions": { "items": [ { "item": "minalchemy:honey_element" } ] } }
+    },
+    "requirements": [
+        [ "hay_bale_element" ],
+        [ "hay_element" ],
+        [ "honey_element" ]
+    ]
+}

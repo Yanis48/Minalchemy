@@ -1,0 +1,14 @@
+{
+    "type": "minalchemy:alchemy",
+    "ingredients": [
+        {
+            "item": "minalchemy:metal_element"
+        },
+        {
+            "item": "minalchemy:sound_element"
+        }
+    ],
+    "result": {
+        "item": "minalchemy:bell_element"
+    }
+}
